@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;600;700&display=swap%27');
+
+body {
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+header {
+    width: 100%;
+    max-width: 1000px;
+    justify-content: space-between;
+    border: 1px solid rgb(197, 197, 197);
+    padding: 49px;
+}
+
+header a {
+    padding-left: 0px;
+    color: gray;
+    font-size: 170%;
+    font-weight:800;
+}
+
+div.container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+nav {
+    margin-top: 40px;
+    width: 100%;
+    max-width: 1300px;
+}
+
+nav a {
+    color: rgb(112, 112, 112);
+    text-shadow: 0px 0px 1px rgb(112, 112, 112);
+    background-color: rgb(245, 245, 245);
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    border: 1px solid rgb(186, 186, 186);
+    border-bottom: 1.5px solid rgb(37, 223, 230);
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: larger;
+    margin-right:10px;
+    margin-bottom: -2px;
+}
+
+nav a.active {
+    color: white;
+    text-shadow: 0px 0px 1px #ffffff;
+    background-color:rgb(37, 223, 230);
+    border: 2px solid rgb(37, 223, 230);
+}
+
+section {
+    border: 1px solid rgb(186, 186, 186);
+    border-top: 10px solid rgb(37, 223, 230);
+    min-height:400px ;
+    padding: 20px;
+}
+
+p {
+    max-width: 900px;
+    font-size: 110%;
+    color: rgb(112, 112, 112);
+    padding-inline-start: 20px;
+}
+
+h2{
+    color: rgb(112, 112, 112);
+    padding-inline-start: 20px;
+}
+
+li {
+    color: rgb(112, 112, 112);
+    padding-bottom: 10px;
+}
+
+li a{
+    text-shadow: 0px 0px 1px rgb(37, 223, 230);
+    color: rgb(37, 223, 230);
+}
